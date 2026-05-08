@@ -1,6 +1,6 @@
 ---
 name: mini-brainstorm
-description: "Use when the user has a clear feature idea and needs project-specific implementation planning, codebase research, incremental recommendations, and a running decision log in docs/BRAINSTORM.md."
+description: "Use when the user has a clear feature idea and needs project-specific implementation brainstorming, codebase research, incremental recommendations, and a running decision log in docs/BRAINSTORM.md."
 ---
 
 # Mini Brainstorm for Implementation
@@ -10,6 +10,8 @@ Use this skill when the user already knows what they want to build, but needs he
 ## Goal
 
 Turn a feature idea into a concrete, repo-aware implementation plan through short back-and-forth discussion.
+
+This skill stays in the brainstorming phase. Do not pivot into implementation execution unless the user explicitly changes the goal.
 
 ## Workflow
 
@@ -21,6 +23,12 @@ Turn a feature idea into a concrete, repo-aware implementation plan through shor
 6. When the plan is nearly settled, ask the user for confirmation before treating the outcome as final.
 7. After the user confirms, consolidate docs/BRAINSTORM.md into the final artifact for the feature discussion.
 
+## Conversation Rules
+
+- Never proactively ask whether you should start implementing. Keep the exchange focused on brainstorming, architecture, tradeoffs, and scope.
+- If the user is still exploring options, stay in discussion mode and avoid closure language that pushes the conversation into execution.
+- Treat implementation as a later phase unless the user explicitly asks to move there.
+
 ## Note Log Rules
 
 Keep docs/BRAINSTORM.md as the single running record of the discussion.
@@ -30,6 +38,8 @@ Keep docs/BRAINSTORM.md as the single running record of the discussion.
 - Capture the current recommendation and any open questions.
 - Update the document every round, even if the update is small.
 - Keep the log concise while the discussion is still exploratory.
+- Remove open questions from docs/BRAINSTORM.md as soon as the user answers them, rather than leaving resolved items behind.
+- Keep only active questions and current decisions in the log so it stays readable during a long discussion.
 
 ## Response Style
 
