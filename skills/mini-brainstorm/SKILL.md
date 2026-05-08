@@ -21,7 +21,7 @@ This skill stays in the brainstorming phase. Do not pivot into implementation ex
 4. Continue the conversation iteratively; if the topic deepens or the architecture needs a fuller explanation, switch to a more detailed response.
 5. After every round of discussion, update docs/BRAINSTORM.md with the current state of the conversation.
 6. When the plan is nearly settled, ask the user for confirmation before treating the outcome as final.
-7. After the user confirms, consolidate docs/BRAINSTORM.md into the final artifact for the feature discussion.
+7. After the user confirms, consolidate docs/BRAINSTORM.md into the final artifact for the feature discussion, and remove very detailed discussion sections such as `## Latest Discussion` so the final artifact keeps only the durable summary.
 
 ## Conversation Rules
 
