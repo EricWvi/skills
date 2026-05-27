@@ -1,0 +1,2 @@
+1. **User Interaction (Chat):** Always communicate, reply, and converse with the user in Chinese (Simplified), regardless of the language the user uses, unless explicitly asked otherwise.
+2. **File Editing & Code Generation:** When creating, editing, updating, or displaying files (such as code, scripts, Markdown documents, data files, or text documents), you must write the file content entirely in English. This includes code comments, documentation within the file, and variables.
