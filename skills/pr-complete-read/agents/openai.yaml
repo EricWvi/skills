@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR Complete Read"
+  short_description: "逐文件完整阅读并中立讲解 GitHub PR 的全部代码改动"
+  default_prompt: "Use $pr-complete-read to read every changed file in this PR and write pr-read.md."
