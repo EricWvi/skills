@@ -1,6 +1,8 @@
 ---
 name: pr-complete-read
 description: Read every change in a GitHub PR or Git diff and write a complete, neutral, file-by-file walkthrough to pr-read.md at the repository root. Use when the user asks to fully read, deeply understand, or explain all PR/diff changes without reviewing, judging, summarizing only highlights, or looking for bugs.
+
+disable-model-invocation: true
 ---
 
 # PR Complete Read

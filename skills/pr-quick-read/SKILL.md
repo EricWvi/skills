@@ -1,6 +1,8 @@
 ---
 name: pr-quick-read
 description: Quickly understand a GitHub PR or Git diff at high level and build lasting familiarity with the codebase. Use when user asks to review, understand, summarize, or explain a PR/diff or wants to get familiar with the project through PRs. Focus on intent, architecture context, related modules, and mental model building. Skip low-level syntax noise especially in Rust.
+
+disable-model-invocation: true
 ---
 
 # PR Quick Understand + Codebase Familiarity

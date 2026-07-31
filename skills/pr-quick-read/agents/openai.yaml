@@ -2,3 +2,5 @@ interface:
   display_name: "PR Quick Read"
   short_description: "一分钟理解 PR 核心改动并建立代码库全局心智模型"
   default_prompt: "Use $pr-quick-read to quickly explain this PR and orient me in the surrounding codebase."
+policy:
+  allow_implicit_invocation: false
